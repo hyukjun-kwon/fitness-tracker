@@ -24,4 +24,5 @@ module.exports = (app) => {
       .then(results => res.json(results))
       .catch(err => res.json(err));
   });
+
 };
